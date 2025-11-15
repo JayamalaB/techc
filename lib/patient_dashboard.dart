@@ -13,7 +13,8 @@ class PatientDashboard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dashboard'),
-        backgroundColor: Colors.blue[700],
+        backgroundColor: Color(0xFF467946)
+,
         foregroundColor: Colors.white,
         actions: [
           IconButton(
