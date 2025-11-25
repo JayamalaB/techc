@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tech-C Patient App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+       colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF467946)),
         useMaterial3: true,
       ),
       home: const SplashScreen(),

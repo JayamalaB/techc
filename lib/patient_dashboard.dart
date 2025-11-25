@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/book_test_page.dart';
 import 'screens/my_appointments_page.dart'; // Add this import
-import 'login_page.dart';
+import 'role_selection_page.dart';
 
 class PatientDashboard extends StatelessWidget {
   final String email;
@@ -13,7 +13,7 @@ class PatientDashboard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dashboard'),
-        backgroundColor: Colors.blue[700],
+        backgroundColor: Color(0xFF467946),
         foregroundColor: Colors.white,
         actions: [
           IconButton(
@@ -21,7 +21,7 @@ class PatientDashboard extends StatelessWidget {
             onPressed: () {
               Navigator.pushAndRemoveUntil(
                 context,
-                MaterialPageRoute(builder: (context) => LoginPage()),
+              MaterialPageRoute(builder: (context) => RoleSelectionPage()),
                 (route) => false,
               );
             },

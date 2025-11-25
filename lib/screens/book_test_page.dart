@@ -189,7 +189,7 @@ class _BookTestPageState extends State<BookTestPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Book Blood Test'),
-        backgroundColor: Colors.blue[700],
+        backgroundColor: Color(0xFF467946),
         foregroundColor: Colors.white,
       ),
       body: Column(
@@ -285,7 +285,7 @@ class _BookTestPageState extends State<BookTestPage> {
         child: ElevatedButton(
           onPressed: _proceedToPayment,
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.blue[700],
+            backgroundColor: Color(0xFF467946),
             padding: const EdgeInsets.symmetric(vertical: 16),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),

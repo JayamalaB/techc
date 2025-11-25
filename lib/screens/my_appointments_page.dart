@@ -224,7 +224,7 @@ class _MyAppointmentsPageState extends State<MyAppointmentsPage> {
                       icon: const Icon(Icons.location_on, size: 16),
                       label: const Text('Track'),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.blue[700],
+                        backgroundColor:Color(0xFF467946),
                         padding: const EdgeInsets.symmetric(vertical: 8),
                       ),
                     ),
@@ -296,7 +296,7 @@ class _MyAppointmentsPageState extends State<MyAppointmentsPage> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text('Tracking technician ${appointment.technicianName}...'),
-        backgroundColor: Colors.blue[700],
+        backgroundColor: Color(0xFF467946),
       ),
     );
   }
@@ -306,7 +306,7 @@ class _MyAppointmentsPageState extends State<MyAppointmentsPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My Appointments'),
-        backgroundColor: Colors.blue[700],
+        backgroundColor: Color(0xFF467946),
         foregroundColor: Colors.white,
       ),
       body: appointments.isEmpty
