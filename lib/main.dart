@@ -12,11 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Tech-C Patient App',
-     theme: ThemeData(
-       colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF467946)
-),
-       useMaterial3: true,
-     ),
+      theme: ThemeData(
+       colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF467946)),
+        useMaterial3: true,
+      ),
       home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
     );

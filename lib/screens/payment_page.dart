@@ -189,8 +189,7 @@ class _PaymentPageState extends State<PaymentPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Payment'),
-        backgroundColor: Color(0xFF467946)
-,
+        backgroundColor: Color(0xFF467946),
         foregroundColor: Colors.white,
       ),
       body: Column(
@@ -278,8 +277,7 @@ class _PaymentPageState extends State<PaymentPage> {
         child: ElevatedButton(
           onPressed: _isProcessing ? null : _processPayment,
           style: ElevatedButton.styleFrom(
-            backgroundColor: Color(0xFF467946)
-,
+            backgroundColor: Color(0xFF467946),
             padding: const EdgeInsets.symmetric(vertical: 16),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),

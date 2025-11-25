@@ -124,8 +124,7 @@ class BookingConfirmationPage extends StatelessWidget {
                         );
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xFF467946)
-,
+                        backgroundColor: Color(0xFF467946),
                         padding: const EdgeInsets.symmetric(vertical: 16),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
@@ -158,14 +157,12 @@ class BookingConfirmationPage extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
-                        side: BorderSide(color: Color(0xFF467946)
-!),
+                        side: BorderSide(color: Colors.blue[700]!),
                       ),
                       child: Text(
                         'View My Appointments',
                         style: TextStyle(
-                          color: Color(0xFF467946)
-,
+                          color: Colors.blue[700],
                           fontWeight: FontWeight.w600,
                         ),
                       ),
